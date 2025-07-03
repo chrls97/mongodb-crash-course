@@ -120,6 +120,3 @@ app.patch('/books/:id', (req, res) => {
     res.status(500).json({ error: "not a valid id" });
   }
 });
-
-console.log();
-console.log("test");
